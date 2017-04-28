@@ -17,7 +17,7 @@ public class Student implements Ilogin,viewques {
 	Scanner ssc;
 	BufferedWriter pbw;
 	BufferedWriter sbw;
-	ArrayList answer = new ArrayList();
+    static	ArrayList answer = new ArrayList();
 	public Student() throws IOException
 	{
 		admin=new Admin();
@@ -70,8 +70,6 @@ public class Student implements Ilogin,viewques {
 	{
 		admin.addstudent(name, fname, id);
 	}
-	
-	
 	
 	
 }
